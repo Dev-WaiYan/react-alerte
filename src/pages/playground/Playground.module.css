@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.requestListContainer {
+  margin: 20px 0;
+}
+
+.requestBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.formComponent {
+  margin: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formComponent input,
+.formComponent select {
+  width: 400px;
+}
+
+.actionBtnContainer button {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .formComponent {
+    width: 250px;
+  }
+
+  .formComponent input,
+  .formComponent select {
+    width: 250px;
+  }
+}
