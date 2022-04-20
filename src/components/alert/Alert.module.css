@@ -1,0 +1,10 @@
+.alertComponentContainer {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 400px;
+}
+
+.alert {
+  margin: 20px 0;
+}
