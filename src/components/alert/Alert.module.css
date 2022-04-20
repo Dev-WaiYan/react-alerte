@@ -8,3 +8,10 @@
 .alert {
   margin: 20px 0;
 }
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .alertComponentContainer {
+    width: 200px;
+  }
+}

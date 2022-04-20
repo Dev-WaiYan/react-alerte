@@ -7,6 +7,7 @@ function Input({ type = "text", value = "", onChange, placeholder, ...rest }) {
   // Effect - Start
   useEffect(() => {
     value !== inputValue && setInputValue(value);
+    // eslint-disable-next-line
   }, [value]);
   // Effect - End
 

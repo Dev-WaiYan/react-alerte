@@ -7,6 +7,7 @@ function Select({ value = "", options, onChange, ...rest }) {
   // Effect - Start
   useEffect(() => {
     value !== selectedValue && setSelectedValue(value);
+    // eslint-disable-next-line
   }, [value]);
   // Effect - End
 
